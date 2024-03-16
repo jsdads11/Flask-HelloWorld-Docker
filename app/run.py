@@ -20,5 +20,6 @@ if __name__ == "__main__":                       #
     app.run()                                    # start the flask app server and start to listen to the incoming requests     
 
 
-# to exec: python hello.py
+# to exec: python run.py
+
 
