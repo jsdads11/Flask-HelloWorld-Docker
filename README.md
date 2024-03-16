@@ -23,7 +23,7 @@ cat ~/.ssh/id_rsa.pub
 git clone https://github.com/jsdads11/flask-helloworld-docker.git
 cd flask-helloworld-docker
 
-# Building and running docker container
+# Building and running as a ocker container
 docker build --tag flask-helloworld-docker --build-arg FLASK_DEBUG=True .
 docker run --detach --name flask-app --publish 80:8080 --rm flask-helloworld-docker
 docker ps
