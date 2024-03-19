@@ -1,4 +1,4 @@
-from flask import Flask                          # import flask into our code
+from flask import Flask                          # import flask framework into our code
 import json
 
 app = Flask(__name__)    
