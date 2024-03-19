@@ -21,7 +21,7 @@ def client(app):
 def runner(app):
     return app.test_cli_runner()
 
-
+£ test that a 200 requerst is correctly returned as 200 as wekk as a flask binary text being returned
 def test_api(client):
     response = client.get("/")
     assert response.status_code == 200
